@@ -8,8 +8,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{51EA37FA-472B-4ABE-9059-435253724ED3}"
 	ProjectSection(SolutionItems) = preProject
 		build.ps1 = build.ps1
+		docker-compose.ci.build.yml = docker-compose.ci.build.yml
+		docker-compose.yml = docker-compose.yml
 		Dockerfile = Dockerfile
-		D:\src\candidate_search_alerts\src\emailalerts\scripts\run.sh = D:\src\candidate_search_alerts\src\emailalerts\scripts\run.sh
+		run.sh = run.sh
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DotNetCoreDockerConsoleApp", "DotNetCoreDockerConsoleApp\DotNetCoreDockerConsoleApp.xproj", "{35519EBF-C49C-4CC2-97AB-3CE63350F770}"
