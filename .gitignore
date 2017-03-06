@@ -12,6 +12,8 @@ AssemblyCache.config
 [Oo]bj/
 .vs
 
+.vscode/
+
 *.lock.json
 DockerConsoleAppPublish/
 
