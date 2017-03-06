@@ -12,6 +12,7 @@ AssemblyCache.config
 [Oo]bj/
 .vs
 
+*.lock.json
 DockerConsoleAppPublish/
 
 # mstest test results

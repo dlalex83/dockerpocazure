@@ -2,7 +2,7 @@ version: "2"
 
 services:
     dockerpoc:
-        build: ./DotNetCoreDockerConsoleApp
+        build: ./
         depends_on:
             - mycache
 
