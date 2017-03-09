@@ -1,12 +1,14 @@
 version: "2"
 
 services:
-    dockerpoc:
-        build: ./
+    testapi:
+        build: ./TestApi/
         depends_on:
-            - mycache
+            - cache
+        ports:
+            - "5000:5000"
 
-    mycache:
+    cache:
         image: redis:alpine
         expose:
             - "6379"
